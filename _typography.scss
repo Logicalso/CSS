@@ -44,8 +44,6 @@ h1 {
 	small {
 		color: $accent;
 		font-size: 1.6rem;
-		text-align: right;
-		float: right;
 		display: inline-block;
 		margin-left: auto;
 	}
@@ -89,13 +87,4 @@ a {
 }
 a:hover {
 	color: $hoverLink;
-}
-
-/* Typography Classes */
-
-// Headers
-h1.huge {
-	font-size: 72px;
-	font-size: 7.2rem;
-	text-align: center;
 }
