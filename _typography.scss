@@ -36,11 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 28px;
-	font-size: 2.8rem;
+	font-size: 36px;
+	font-size: 3.6rem;
 	line-height: 1.5em;
 	font-weight: 300;
-	border-bottom: 1px #eee solid;
 	margin-bottom: 0.5em;
 	small {
 		color: $accent;
@@ -90,4 +89,13 @@ a {
 }
 a:hover {
 	color: $hoverLink;
+}
+
+/* Typography Classes */
+
+// Headers
+h1.huge {
+	font-size: 72px;
+	font-size: 7.2rem;
+	text-align: center;
 }
