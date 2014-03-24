@@ -5,8 +5,12 @@ This is the wonderful Logical.so CSS framework. It is incredibly basic currently
 
 Usage
 -----
-Essentially just import logical.scss into your stylesheet. If you want to customise it start with defaults.scss - it should be fairly straightforward (although I promise to improve it soon). 
+Essentially just import logical.scss into your stylesheet. If you want to customise it start with defaults.scss - it should be fairly straightforward (although I promise to improve it soon).
 
 Licensing
 ---------
 This project is licensed under the MIT license. See LICENSE.
+
+Website
+-------
+http://logical.so
