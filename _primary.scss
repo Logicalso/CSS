@@ -28,5 +28,6 @@ img {
   width: $defaultContainerWidth;
   margin-left: auto;
   margin-right: auto;
-  padding: $primaryPadding;
+  padding-left: $primaryPadding;
+  padding-right: $primaryPadding;
 }
