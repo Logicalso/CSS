@@ -23,3 +23,10 @@ footer {
 img {
 	max-width: 100%;
 }
+
+.container {
+  width: $defaultContainerWidth;
+  margin-left: auto;
+  margin-right: auto;
+  padding: $primaryPadding;
+}
