@@ -7,8 +7,9 @@
 form {
 	label {
 		display: block;
-		text-align: right;
 		margin-top: ($primaryPadding /4);
+		font-size: 16px;
+		font-size: 1.6rem;
 	}
 	input[type=text], input[type=email], input[type=password], textarea {
 		-moz-box-sizing: border-box;
@@ -56,4 +57,10 @@ form {
 		margin: 0;
 		outline: 0;
 	}
+}
+
+.label-detail {
+	font-size: 12px;
+	font-size: 1.2rem;
+	
 }
