@@ -9,9 +9,6 @@
  *! *
 */
 
-// Might want to override the following
-@import 'defaults.scss';
-
 // Import open sans - change this if you want to use a different font
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
 
@@ -25,3 +22,4 @@
 @import 'tables.scss';
 
 @import 'utility.scss';
+@import 'responsive.scss';

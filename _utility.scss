@@ -17,6 +17,17 @@
 	}
 	margin-top: ($primaryPadding / 2);
 	margin-bottom: ($primaryPadding / 2);
+	.notice-close {
+		background: 0;
+		border: 0;
+		outline: 0;
+		display: inline;
+		float: right;
+		color: #333;
+		font-weight: 700;
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
 }
 
 .notice-success {

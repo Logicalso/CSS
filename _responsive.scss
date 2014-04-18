@@ -5,3 +5,35 @@
 */
 
 img, canvas, iframe, video, svg { max-width: 100%; }
+
+@media only screen and (min-width: ($defaultContainerWidth + ($primaryPadding * 2))) {
+
+}
+
+@media only screen and (min-width: ($largeContainerWidth + ($primaryPadding * 2))) {
+	.container {
+		max-width: $largeContainerWidth;
+	}
+}
+
+@media only screen and (max-width: ($defaultContainerWidth + ($primaryPadding * 2) - 1px)) {
+	.container {
+		max-width: $tabletContainerWidth;
+	}
+}
+
+@media only screen and (max-width: ($tabletContainerWidth + ($primaryPadding * 2) - 1px)) {
+	footer {
+		.left, .center, .right {
+			text-align: center;
+		}
+	}
+	.container {
+		max-width: 100%;
+	}
+	.row {
+		.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+			width: 100%;
+		}
+	}
+}

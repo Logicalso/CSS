@@ -21,9 +21,10 @@ footer {
 }
 
 .container {
-  width: $defaultContainerWidth;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $primaryPadding;
-  padding-right: $primaryPadding;
+	width: 100%;
+	max-width: $defaultContainerWidth;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $primaryPadding;
+	padding-right: $primaryPadding;
 }

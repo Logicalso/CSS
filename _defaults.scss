@@ -8,6 +8,9 @@ $primaryFont: 'Open Sans', sans-serif;
 $headerFont: 'Open Sans', sans-serif;
 
 $defaultContainerWidth: 960px;
+$largeContainerWidth: 1200px;
+$tabletContainerWidth: 720px;
+
 $primaryPadding: 16px;
 $oneCol: 8.333333333%;
 
@@ -26,3 +29,6 @@ $buttonDarkHoverColor: #444;
 
 $buttonLightColor: #ddd;
 $buttonLightHoverColor: #eee;
+
+$buttonDangerColor: #911500;
+$buttonDangerHoverColor: #821300;
