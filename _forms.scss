@@ -29,6 +29,7 @@ form {
 	}
 	textarea {
 		height: 400px;
+		resize: vertical;
 	}
 	.row {
 		margin-bottom: $primaryPadding;
