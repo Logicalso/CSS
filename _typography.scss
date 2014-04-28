@@ -81,6 +81,11 @@ footer {
 	font-weight: 400;
 }
 
+hr {
+	border: 0;
+	border-bottom: 1px #efefef solid;
+}
+
 a {
 	color: $link;
 	text-decoration: none;
