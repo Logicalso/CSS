@@ -12,6 +12,9 @@
 // Import open sans - change this if you want to use a different font
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
 
+// Import default variables. You'll probably want to change this. 
+@import 'defaults';
+
 // Import everything else
 @import 'typography.scss';
 @import 'primary.scss';
