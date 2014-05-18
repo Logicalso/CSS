@@ -8,9 +8,24 @@
 .center { text-align: center; }
 .right { text-align: right; }
 
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
 /* Notices */
 .notice {
+	transition: all 0.3s ease;
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
 	padding: ($primaryPadding / 2);
+	height: 38px;
+	overflow: hidden;
 	p {
 		padding: 0;
 		margin: 0;
@@ -33,4 +48,16 @@
 .notice-success {
 	background-color: #B8D9BA;
 	border-left: 4px #3a9216 solid;
+}
+
+.notice-error {
+	background-color: #D9AFA9;
+	border-left: 4px #D98179 solid;
+}
+
+.notice.hide {
+	height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
 }
