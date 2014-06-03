@@ -24,6 +24,11 @@ form {
 		padding: ($primaryPadding / 4);
 		-webkit-appearance: none;
 	}
+	input[type=file] {
+		border: 1px #ccc solid;
+		padding: $primaryPadding / 4;
+		width: 100%;
+	}
 	input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focus {
 		border: 1px $formBorder solid;
 		transition: 0.3s box-shadow;
@@ -58,10 +63,13 @@ form {
 		margin-top: 2em;
 		margin-bottom: 2em;
 	}
+	.form-end {
+		margin-top: $primaryPadding;
+	}
 }
 
 .label-detail {
 	font-size: 12px;
 	font-size: 1.2rem;
-	
+
 }
