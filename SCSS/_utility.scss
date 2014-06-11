@@ -26,6 +26,9 @@
 	padding: ($primaryPadding / 2);
 	height: 38px;
 	overflow: hidden;
+	border-radius: $radius;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 	p {
 		padding: 0;
 		margin: 0;
