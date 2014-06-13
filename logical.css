@@ -614,22 +614,18 @@ form label {
   margin-top: 4px;
   font-size: 16px;
   font-size: 1.6rem; }
-form input[type=text], form input[type=email], form input[type=password], form textarea, form select {
+form input[type=text], form input[type=email], form input[type=password], form input[type=file], form textarea, form select {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline: 0;
   border: 0;
   width: 100%;
-  border: 1px #aaa solid;
-  border-radius: 0;
+  border: 1px gainsboro solid;
+  border-radius: 3px;
   background-color: #fafafa;
   transition: 0.3s box-shadow;
   padding: 4px;
   -webkit-appearance: none; }
-form input[type=file] {
-  border: 1px #ccc solid;
-  padding: 4px;
-  width: 100%; }
 form input[type=text]:focus, form input[type=email]:focus, form input[type=password]:focus, form textarea:focus, form select:focus {
   border: 1px #0070b2 solid;
   transition: 0.3s box-shadow;
@@ -645,6 +641,7 @@ form button, form input[type=submit] {
   width: auto;
   border: 0;
   padding: 4px;
+  border-radius: 3px;
   outline: 0;
   background-color: #005d94;
   color: #fff;
@@ -652,7 +649,8 @@ form button, form input[type=submit] {
 form button:hover, form input[type=submit]:hover {
   background-color: #0065a1; }
 form input[type=text].input-small, form input[type=email].input-small, form input[type=password].input-small, form textarea.input-small, form select.input-small {
-  padding: 2px; }
+  padding: 2px;
+  border-radius: 3px; }
 form hr {
   margin-top: 2em;
   margin-bottom: 2em; }
@@ -691,11 +689,11 @@ form .form-end {
   background-color: #444444; }
 
 .button-light {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   color: #333; }
 
 .button-light:hover {
-  background-color: #eeeeee;
+  background-color: #f6f6f6;
   color: #333; }
 
 .button-danger {
@@ -767,6 +765,9 @@ table {
   padding: 8px;
   height: 38px;
   overflow: hidden;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   margin-top: 8px;
   margin-bottom: 8px; }
   .notice p {
