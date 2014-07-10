@@ -1,10 +1,11 @@
 .button {
 	text-align: center;
-	border-radius: 4px;
+	border-radius: 2px;
 	display: inline-block;
 	height: 32px;
 	background-color: $buttonColor;
 	padding: ($primaryPadding / 4);
+	padding-top: 6px;
 	padding-left: $primaryPadding;
 	padding-right: $primaryPadding;
 	-moz-box-sizing: border-box;
