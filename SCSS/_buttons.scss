@@ -2,15 +2,21 @@
 	text-align: center;
 	border-radius: 2px;
 	display: inline-block;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 1.5em;
 	height: 32px;
 	background-color: $buttonColor;
 	padding: ($primaryPadding / 4);
-	padding-top: 6px;
+	padding-top: 4px;
 	padding-left: $primaryPadding;
 	padding-right: $primaryPadding;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
+	border-top: 1px #27A4D8 solid;
+	border-bottom: 1px #1C7397 solid;
 }
 
 .button:hover {
@@ -25,6 +31,8 @@
 
 .button-dark {
 	background-color: $buttonDarkColor;
+	border-top: 1px #333847 solid;
+	border-bottom: 1px #252833 solid;
 }
 
 .button-dark:hover {
@@ -34,6 +42,8 @@
 .button-light {
 	background-color: $buttonLightColor;
 	color: #333;
+	border-top: 1px #fefefe solid;
+	border-bottom: 1px #ccc solid;
 }
 
 .button-light:hover {
@@ -44,6 +54,8 @@
 .button-danger {
 	background-color: $buttonDangerColor;
 	color: #fff;
+	border-top: 1px #ED490A solid;
+	border-bottom: 1px #601E04 solid;
 }
 
 .button-danger:hover {

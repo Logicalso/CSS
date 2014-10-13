@@ -405,7 +405,7 @@ h1 {
   font-weight: 300;
   margin-bottom: 0.5em; }
   h1 small {
-    color: #00345c;
+    color: #00345C;
     font-size: 1.6rem;
     display: inline-block;
     margin-left: auto;
@@ -418,7 +418,7 @@ h2 {
   font-weight: 300;
   margin-bottom: 0.25em; }
   h2 small {
-    color: #00345c;
+    color: #00345C;
     font-size: 1.6rem;
     text-align: right;
     float: right;
@@ -626,7 +626,7 @@ form input[type=text], form input[type=email], form input[type=password], form i
   padding: 4px;
   -webkit-appearance: none; }
 form input[type=text]:focus, form input[type=email]:focus, form input[type=password]:focus, form textarea:focus, form select:focus {
-  border: 1px #0070b2 solid;
+  border: 1px #0070B2 solid;
   transition: 0.3s box-shadow;
   background-color: white; }
 form textarea {
@@ -643,8 +643,13 @@ form button, form input[type=submit] {
   border-radius: 3px;
   outline: 0;
   background-color: #259acb;
+  border-top: 1px #27A4D8 solid;
+  border-bottom: 1px #1C7397 solid;
   color: #fff;
-  height: 32px; }
+  height: 32px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 700; }
 form button:hover, form input[type=submit]:hover {
   background-color: #2bade4; }
 form input[type=text].input-small, form input[type=email].input-small, form input[type=password].input-small, form textarea.input-small, form select.input-small {
@@ -664,15 +669,21 @@ form .form-end {
   text-align: center;
   border-radius: 2px;
   display: inline-block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5em;
   height: 32px;
   background-color: #259acb;
   padding: 4px;
-  padding-top: 6px;
+  padding-top: 4px;
   padding-left: 16px;
   padding-right: 16px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff; }
+  color: #fff;
+  border-top: 1px #27A4D8 solid;
+  border-bottom: 1px #1C7397 solid; }
 
 .button:hover {
   color: #fff;
@@ -683,14 +694,18 @@ form .form-end {
   display: block; }
 
 .button-dark {
-  background-color: #2a2e3a; }
+  background-color: #2a2e3a;
+  border-top: 1px #333847 solid;
+  border-bottom: 1px #252833 solid; }
 
 .button-dark:hover {
   background-color: #393f4f; }
 
 .button-light {
-  background-color: #eeeeee;
-  color: #333; }
+  background-color: #eee;
+  color: #333;
+  border-top: 1px #fefefe solid;
+  border-bottom: 1px #ccc solid; }
 
 .button-light:hover {
   background-color: #f6f6f6;
@@ -698,7 +713,9 @@ form .form-end {
 
 .button-danger {
   background-color: #e04509;
-  color: #fff; }
+  color: #fff;
+  border-top: 1px #ED490A solid;
+  border-bottom: 1px #601E04 solid; }
 
 .button-danger:hover {
   background-color: #f75110; }
@@ -748,13 +765,11 @@ table {
 @keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
 /* Notices */
@@ -771,6 +786,8 @@ table {
   margin-top: 8px;
   margin-bottom: 8px; }
   .notice p {
+    font-size: 16px !important;
+    font-size: 1.6rem !important;
     padding: 0;
     margin: 0; }
   .notice .notice-close {
@@ -798,6 +815,9 @@ table {
   padding-bottom: 0;
   margin: 0; }
 
+img.wblogical {
+  width: 130px; }
+
 /*
  *  *
  *  *  Responsive
@@ -820,4 +840,8 @@ img, canvas, iframe, video, svg {
     max-width: 100%; }
 
   .row .col-1, .row .col-2, .row .col-3, .row .col-4, .row .col-5, .row .col-6, .row .col-7, .row .col-8, .row .col-9, .row .col-10, .row .col-11, .row .col-12 {
-    width: 100%; } }
+    width: 100%; }
+  .row .offset-1, .row .offset-2, .row .offset-3, .row .offset-4, .row .offset-5, .row .offset-6, .row .offset-7, .row .offset-8, .row .offset-9, .row .offset-10, .row .offset-11, .row .offset-12 {
+    margin-left: 0; } }
+
+/*# sourceMappingURL=logical.css.map */
