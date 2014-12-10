@@ -1,7 +1,7 @@
 /*
- *	*
- *	*	Form Related Magic
- *	*
+*	*
+*	*	Form Related Magic
+*	*
 */
 
 form {
@@ -47,8 +47,8 @@ form {
 		border-radius: $radius;
 		outline: 0;
 		background-color: $buttonColor;
-		border-top: 1px #27A4D8 solid;
-		border-bottom: 1px #1C7397 solid;
+		border-top: 1px $buttonTop solid;
+		border-bottom: 1px $buttonBottom solid;
 		color: #fff;
 		height: 32px;
 		font-size: 14px;
