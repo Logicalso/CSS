@@ -15,7 +15,9 @@ Usage
 =====
 You can find the SCSS source files in the SCSS directory - these will be very useful if you want / need to make changes to the framework.
 
-Otherwise you'll likely want to just import logical.min.css or logical.css into your own stylesheet. Whilst you certainly *could* make a website using just the Logical.so CSS, I'd advise against it. I don't want to find this to become another Bootstrap.
+Otherwise you'll likely want to just import logical.min.css or logical.css into your own stylesheet.
+
+Whilst you can certainly get a decent enough looking website just from the Logical.so base styles, you probably won't get anything too spectacular either. This is intended to speed up development and give you something to build upon - not replace a site's CSS entirely. 
 
 License
 =======
