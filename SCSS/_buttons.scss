@@ -54,8 +54,8 @@
 .button-danger {
 	background-color: $buttonDangerColor;
 	color: #fff;
-	border-top: 1px #ED490A solid;
-	border-bottom: 1px #601E04 solid;
+	border-top: 1px $buttonDangerTop solid;
+	border-bottom: 1px $buttonDangerBottom solid;
 }
 
 .button-danger:hover {
