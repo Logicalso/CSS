@@ -15,13 +15,17 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
-	border-top: 1px $buttonTop solid;
-	border-bottom: 1px $buttonBottom solid;
+	border: 1px #1C7397 solid;
+	border-top: 1px #27A4D8 solid;
 }
 
 .button:hover {
 	color: #fff;
 	background-color: $buttonHoverColor;
+}
+
+.button:active {
+	box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.2);
 }
 
 .button-block {
@@ -31,8 +35,8 @@
 
 .button-dark {
 	background-color: $buttonDarkColor;
-	border-top: 1px $buttonDarkTop solid;
-	border-bottom: 1px $buttonDarkBottom solid;
+	border: 1px #252833 solid;
+	border-top: 1px #333847 solid;
 }
 
 .button-dark:hover {
@@ -42,8 +46,8 @@
 .button-light {
 	background-color: $buttonLightColor;
 	color: #333;
-	border-top: 1px $buttonLightTop solid;
-	border-bottom: 1px $buttonLightBottom solid;
+	border: 1px #ccc solid;
+	border-top: 1px #fefefe solid;
 }
 
 .button-light:hover {
@@ -54,8 +58,8 @@
 .button-danger {
 	background-color: $buttonDangerColor;
 	color: #fff;
-	border-top: 1px $buttonDangerTop solid;
-	border-bottom: 1px $buttonDangerBottom solid;
+	border: 1px #601E04 solid;
+	border-top: 1px #ED490A solid;
 }
 
 .button-danger:hover {

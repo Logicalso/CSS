@@ -1,7 +1,7 @@
 /*
-*	*
-*	*	Form Related Magic
-*	*
+ *	*
+ *	*	Form Related Magic
+ *	*
 */
 
 form {
@@ -18,16 +18,16 @@ form {
 		border: 0;
 		width: 100%;
 		border: 1px rgb(220,220,220) solid;
-		border-radius: $radius;
-		background-color: rgb(250,250,250);
+		//border-radius: $radius;
+		background-color: white;
 		transition: 0.3s box-shadow;
 		padding: ($primaryPadding / 4);
 		-webkit-appearance: none;
 	}
 	input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focus {
 		border: 1px $formBorder solid;
-		transition: 0.3s box-shadow;
-		background-color: rgb(255,255,255);
+		transition: 0.3s border;
+		background-color: white;
 		//box-shadow: 0 0 2px 1px #eee;
 	}
 	textarea {
@@ -47,8 +47,8 @@ form {
 		border-radius: $radius;
 		outline: 0;
 		background-color: $buttonColor;
-		border-top: 1px $buttonTop solid;
-		border-bottom: 1px $buttonBottom solid;
+		border-top: 1px #27A4D8 solid;
+		border-bottom: 1px #1C7397 solid;
 		color: #fff;
 		height: 32px;
 		font-size: 14px;
@@ -57,6 +57,9 @@ form {
 	}
 	button:hover, input[type=submit]:hover {
 		background-color: $buttonHoverColor;
+	}
+	button:active, input[type=submit]:active {
+		box-shadow: inset 0 0 4px 1px rgba(0,0,0,0.2);
 	}
 	input[type=text].input-small, input[type=email].input-small, input[type=password].input-small, textarea.input-small, select.input-small {
 		padding: 2px;
