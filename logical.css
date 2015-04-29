@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -642,8 +642,6 @@ form button, form input[type=submit] {
   border-radius: 3px;
   outline: 0;
   background-color: #259acb;
-  border-top: 1px #27A4D8 solid;
-  border-bottom: 1px #1C7397 solid;
   color: #fff;
   height: 32px;
   font-size: 14px;
@@ -682,9 +680,7 @@ form .form-end {
   padding-right: 16px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fff;
-  border: 1px #1C7397 solid;
-  border-top: 1px #27A4D8 solid; }
+  color: #fff; }
 
 .button:hover {
   color: #fff;
@@ -698,18 +694,14 @@ form .form-end {
   display: block; }
 
 .button-dark {
-  background-color: #2a2e3a;
-  border: 1px #252833 solid;
-  border-top: 1px #333847 solid; }
+  background-color: #2a2e3a; }
 
 .button-dark:hover {
   background-color: #393f4f; }
 
 .button-light {
   background-color: #eee;
-  color: #333;
-  border: 1px #ccc solid;
-  border-top: 1px #fefefe solid; }
+  color: #333; }
 
 .button-light:hover {
   background-color: #f6f6f6;
@@ -717,9 +709,7 @@ form .form-end {
 
 .button-danger {
   background-color: #e04509;
-  color: #fff;
-  border: 1px #601E04 solid;
-  border-top: 1px #ED490A solid; }
+  color: #fff; }
 
 .button-danger:hover {
   background-color: #f75110; }

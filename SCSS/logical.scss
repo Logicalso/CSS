@@ -9,11 +9,10 @@
  *! *
 */
 
-// Import open sans - change this if you want to use a different font
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
-
-// Import defaults
 @import 'defaults.scss';
+
+// Import open sans - change this if you want to use a different font
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700");
 
 // Import everything else
 @import 'typography.scss';

@@ -15,8 +15,6 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
-	border: 1px #1C7397 solid;
-	border-top: 1px #27A4D8 solid;
 }
 
 .button:hover {
@@ -35,8 +33,6 @@
 
 .button-dark {
 	background-color: $buttonDarkColor;
-	border: 1px #252833 solid;
-	border-top: 1px #333847 solid;
 }
 
 .button-dark:hover {
@@ -46,8 +42,6 @@
 .button-light {
 	background-color: $buttonLightColor;
 	color: #333;
-	border: 1px #ccc solid;
-	border-top: 1px #fefefe solid;
 }
 
 .button-light:hover {
@@ -58,8 +52,6 @@
 .button-danger {
 	background-color: $buttonDangerColor;
 	color: #fff;
-	border: 1px #601E04 solid;
-	border-top: 1px #ED490A solid;
 }
 
 .button-danger:hover {
